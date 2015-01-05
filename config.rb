@@ -1,0 +1,9 @@
+http_path = "/"
+css_dir = "css"
+sass_dir = "css"
+images_dir = "assets/img"
+javascripts_dir = "js"
+output_style = :compact
+relative_assets = true
+line_comments = false
+preferred_syntax = :scss

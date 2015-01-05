@@ -1,0 +1,153 @@
+.container {
+  width: 1000px;
+  margin: auto;
+  position: relative;
+}
+
+
+
+
+// ### MAIN PAGE ### //
+
+.products {
+  padding-bottom: 140px;
+
+  background: url('../assets/img/products-bg.jpg');
+  background-size: cover;
+  .section__title {
+    margin-bottom: 60px;
+  }
+}
+
+
+.product-list {
+  font-size: 24px;
+  line-height: 30px;
+
+  width: 100%;
+}
+.product-list__empty {
+  height: 100px;
+}
+
+.product-list__text {
+  text-align: left;
+  vertical-align: top;
+  td {
+    position: relative;
+
+    padding-top: 10px;
+    padding-left: 30px;
+    &:before {
+      position: absolute;
+      top: 8px;
+      left: 0;
+
+      display: block;
+
+      width: 21px;
+      height: 32px;
+
+      content: '';
+
+      background: url('../assets/img/icons/slash.png');
+    }
+  }
+  .product-list__text--center {
+    padding-left: 75px;
+    &:before {
+      left: 45px;
+    }
+  }
+}
+
+
+
+.about {
+  padding-bottom: 50px;
+
+  color: #fff;
+  background-color: $main-color;
+  background-image: url('../assets/img/about-bg.png');
+  background-repeat: no-repeat;
+  background-position: top;
+  
+  .section__title {
+    margin-bottom: 40px;
+  }
+}
+
+
+.about__text {
+  font-size: 18px;
+  line-height: 24px;
+  text-align: left;
+}
+
+
+
+.objects {
+  background: url("../assets/img/objects-bg.png") repeat;
+  padding-bottom: 90px;
+  .section__title {
+    margin-bottom: 50px;
+  }
+}
+
+.objects__slider {
+  text-align: left;
+  .owl-prev, .owl-next {
+    position: absolute;
+    top: 40%;
+  }
+  .owl-prev {
+    left: 0;
+
+    background: url("../assets/img/icons/slider-prev.png");
+    width: 26px;
+    height: 80px;
+    text-indent: -9999px;
+  }
+  .owl-next {
+    right: 0;
+
+    background: url("../assets/img/icons/slider-next.png");
+    width: 26px;
+    height: 80px;
+    text-indent: -9999px;
+  }
+}
+
+.object {
+  position: relative;
+}
+
+.object__definition {
+  width: 540px;
+  float: left;
+}
+
+.object__thumb {
+  float: left;
+  margin-left: 150px;
+  margin-right: 90px; 
+}
+
+.object__type {
+  font-size: 18px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #cfd2dc;
+}
+
+.object__title {
+  font-size: 60px;
+  line-height: 1;
+  color: $main-color;
+  margin-bottom: 25px;
+}
+
+.object__description {
+  font-size: 18px;
+  line-height: 24px;
+}
